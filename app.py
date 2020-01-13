@@ -57,9 +57,9 @@ class myHandler(BaseHTTPRequestHandler):
 				self.end_headers()
 				
 				try:
-					self.wfile.write('Soy Dani') #envia respuesta de python 2'''
+					self.wfile.write('Soy Dani Alvarez') #envia respuesta de python 2'''
 				except:
-					self.wfile.write(bytes('Soy Dani', 'UTF-8')) #envia respuesta de python 3'''
+					self.wfile.write(bytes('Soy Dani Alvarez', 'UTF-8')) #envia respuesta de python 3'''
                     
 				
 			return
