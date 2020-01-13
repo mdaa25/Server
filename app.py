@@ -63,7 +63,7 @@ class myHandler(BaseHTTPRequestHandler):
 				try:
 					self.wfile.write(datos) #envia respuesta de python 2...... hasta aqui solo se ha enviado texto plano
 				except:
-					self.wfile.write(bytes(datos, 'UTF-8') #envia respuesta de python 3'''
+					self.wfile.write(bytes(datos, 'UTF-8')) #envia respuesta de python 3'''
                     
 				
 			return
